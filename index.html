@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Swifties</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <link rel="icon" type="image/x-icon" href="./images/ts favicon.jpg">
+
+    
+  
+
+</head>
+
+<body>
+
+<div class="body1">
+      <div class="header">
+  <a href="index.html">
+            <span class="logo"><img src="./images/swifites logo2.png"width="250" height="90"></span>
+      
+  </a>      
+  
+  <!-- search bar -->
+  <div class="searchBar">
+   
+      <span class="textclass"></span>
+            <input type="text" placeholder="Search...">
+          
+      </span>
+      </div>         
+
+      <span class="erasTitle">
+        ERAS TOUR ON RIGHT NOW | 17 Mar 2023 - 23 Nov 2024
+      </span>
+  
+  <span class="myWatchlist">
+    <a href="test.html">My Account</a>
+  </span>
+      </div>
+    
+ 
+  <!-- links -->
+  
+  <div class="topnav">
+    <a href="MOSTPOPULAR.html">ABOUT TAYLOR</a> 
+    <!-- <a href="TOP BOX OFFICE.html">TOP BOX OFFICE</a> -->
+    <a href="NEW.html">FAVOURITE SONGS</a>
+    <!-- <a href="MOST REVIEWED.html">MOST REVIEWED</a> -->
+    <a href="ABOUT THIS SITE.html">ABOUT THIS SITE</a>
+    <a href="log in sign up.html">LOG IN/SIGN UP</a>
+  
+  </div>
+  
+</div>
+
+
+<!-- progress bar -->
+ 
+  <script>
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
+
+
+<!-- <div class="block2"></div> -->
+
+
+    <div class="progress-container">
+      <div class="progress-bar" id="myBar"></div>
+    </div>  
+  </div>
+
+  
+  
+<div class="block"></div>
+
+<!-- image carousel -->
+
+  <div class="slideshow-container">
+  
+  <div class="mySlides fade">
+   
+    <img src="./images/eras top 5.jpg" width="100%" height="20%">
+   
+  </div>
+  
+  <div class="mySlides fade">
+   
+    <img src="./images/19892.PNG" width="100%" height="20%">
+   
+  </div>
+  
+  <div class="mySlides fade">
+  
+    <img src="./images/speak now3.jpg" width="100%" height="20%">
+  
+  </div>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  </div>
+  
+  
+  <!-- image carousel java -->
+  <script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+  }
+  </script>
+ 
+  <div>
+
+<span class="tsIntro">
+      Taylor Swift is an absolute legend, and her journey to success has been nothing short of magical. As a mega fan, witnessing her rise to superstardom has been an incredible rollercoaster of emotions. Taylor's talent is unmatched; her songwriting is poetry, and her voice is pure enchantment. From her humble beginnings in country music to her groundbreaking transition into pop, she has consistently proven herself as a musical chameleon, always evolving and staying true to her artistic vision. Her albums are like a roadmap to my life, each one perfectly capturing the highs and lows of love, heartbreak, and personal growth. Taylor's success isn't just about chart-topping hits; it's about her connection with her fans, her unwavering authenticity, and her ability to make us feel like she's speaking directly to our hearts. She's not just a singer; she's a storyteller, a role model, and a beacon of empowerment. Taylor Swift's success is a testament to her incredible talent, unmatched work ethic, and the unwavering support of her devoted fans, and I couldn't be prouder to be a part of this journey with her.
+  
+</span>
+</div>
+
+<br><br><br><br>
+
+
+<!-- ratings -->
+
+<div class="ratings">
+  
+  <span class="heading">Swifties Rating</span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span>
+  <p>4.1 average based on 254 reviews.</p>
+  <hr style="border:3px solid #f1f1f1">
+  
+  <div class="row">
+    <div class="side">
+      <div>5 star</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-5"></div>
+      </div>
+    </div>
+    <div class="side right">
+      <div>150</div>
+    </div>
+    <div class="side">
+      <div>4 star</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-4"></div>
+      </div>
+    </div>
+    <div class="side right">
+      <div>63</div>
+    </div>
+    <div class="side">
+      <div>3 star</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-3"></div>
+      </div>
+    </div>
+    <div class="side right">
+      <div>15</div>
+    </div>
+    <div class="side">
+      <div>2 star</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-2"></div>
+      </div>
+    </div>
+    <div class="side right">
+      <div>6</div>
+    </div>
+    <div class="side">
+      <div>1 star</div>
+    </div>
+    <div class="middle">
+      <div class="bar-container">
+        <div class="bar-1"></div>
+      </div>
+    </div>
+    <div class="side right">
+      <div>20</div>
+    </div>
+  </div>
+</div>
+
+
+
+<br><br><br>
+
+<!-- count down -->
+<div>
+  <span class="title1">
+    <h1 id="title1">TAYLOR SWIFT COMING TO SYDNEY IN:</h1>
+  </span>
+  </div>
+
+  
+<h5 id="demo"></h5>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Feb 23, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+<br><br>
+
+<!-- footer -->
+
+<footer>
+      <div class="footer">
+  <!-- <span class="logo2">
+          <img src="./images/swifites logo2.png"width=200px height="80px;">
+    
+  </span>       -->
+  
+  <p class="footer-links">
+    <a class="link-1" href="#">Home</a>
+
+    <a href="#">Blog</a>
+
+    <a href="#">Pricing</a>
+
+    <a href="#">About</a>
+
+    <a href="#">Faq</a>
+
+    <a href="#">Contact</a>
+  </p>
+
+<p class="company">
+    Swifties &copy; 2023
+  
+</p>
+  <span class="info">
+    <img src="./images/instagram.png" width="40px height= 20px">
+    <img src="./images/facebook.png" width="40px height= 20px">
+    <img src="./images/tiktok.png" width="40px height= 20px">
+    <img src="./images/youtube.png" width="40px height= 20px">
+  </span>    
+  
+  </div>
+</footer>
+  
+
+
+
+
+<div class="callout">
+  <div class="callout-header">SPRING DEALS!! <span class="ribbon">HOT</span></div>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
+  <div class="callout-container">
+    <p>Spring is finally here! <a href="log in sign up.html">Click here</a> to get a quick Swifties ONLY deal!</p>
+  </div>
+</div>
+
+
+
+
+
+</body>
+
+</html> 
+
